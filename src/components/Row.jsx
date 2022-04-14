@@ -45,7 +45,7 @@ function Row({tittle, fetchUrl, isLargeRow}) {
       return request;
     }
     fetchData();
-    console.log(movies);
+    // console.log(movies);
 
   }, [fetchUrl])
 
