@@ -11,10 +11,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+<<<<<<< HEAD
       - run: npm ci && npm run build
+=======
+>>>>>>> 6233bf943695b7f4c0c4524f119e70fd470e3416
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_NETFLIX_CLONE_97566 }}'
           channelId: live
           projectId: netflix-clone-97566
+<<<<<<< HEAD
+=======
+
+
+      
+>>>>>>> 6233bf943695b7f4c0c4524f119e70fd470e3416
