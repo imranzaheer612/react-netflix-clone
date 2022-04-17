@@ -3,13 +3,12 @@
     height: 100%;
     background: url("https://miro.medium.com/max/1400/1*5lyavS59mazOFnb55Z6znQ.png") center no-repeat;
     background-size: cover;
-    /* width: 900px; */
 }
 
 .loginScreen__logo {
     position: fixed;
     left: 0;
-    width: 150px;
+    width: 130px;
     object-fit: contain;
     margin-top: 25px;
     padding-left: 20px;
@@ -49,7 +48,7 @@
     padding: 20px;
     left: 50%;
     transform: translate(-50%, 0);
-    /* width: 30%; */
+    /* width: 60%; */
     /* margin-left: auto;
     margin-right: auto; */
     text-align: center;
@@ -70,7 +69,7 @@
     margin-bottom: 30px;
 }
 
-.loginScreen__body > h2 {
+.loginScreen__body > h3 {
     font-size: 1.3rem;
     font-weight: 400;
 }
@@ -79,7 +78,7 @@
     padding: 10px;
     outline-width: 0;
     height: 30px;
-    width: 55%;
+    width: 60%;
     border: none;
     max-width: 600px;
 }

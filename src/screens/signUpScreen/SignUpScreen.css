@@ -1,7 +1,7 @@
 
 .signUpScreen {
     width: 400px;
-    padding: 70px;
+    padding: 50px;
     background-color: rgba(0, 0, 0, 0.85);
 }
 
@@ -18,7 +18,7 @@
 
 .signUpScreen > form > input {
     outline-width: 0;
-    height: 30px;
+    height: 25px;
     margin-bottom: 14px;
     border-radius: 5px;
     border: none;
@@ -34,7 +34,7 @@
     font-weight: 600;
     cursor: pointer;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .signUpScreen__gray {

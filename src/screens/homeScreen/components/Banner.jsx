@@ -1,8 +1,8 @@
-import axios from '../axios';
 import React from 'react'
 import { useEffect, useState } from 'react'
-import requests from '../requests';
-import "./Banner.css"
+import axios from '../../../app/axios';
+import requests from '../../../app/requests';
+import "../styles/Banner.css"
 
 
 

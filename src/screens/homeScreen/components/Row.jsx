@@ -1,9 +1,9 @@
-import axios from '../axios'
 import React from 'react'
 import { useEffect, useState } from 'react';
-import './Row.css'
+import axios from '../../../app/axios'
 import YouTube from 'react-youtube';
 import movieTrailer from 'movie-trailer';
+import '../styles/Row.css'
 
 function Row({tittle, fetchUrl, isLargeRow}) {
 

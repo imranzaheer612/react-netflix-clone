@@ -1,7 +1,7 @@
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword } from 'firebase/auth';
 import React from 'react'
 import { useRef } from 'react';
-import { auth } from './firebase';
+import { auth } from '../../app/firebase';
 import './SignUpScreen.css'
 
 function SignUpScreen() {
