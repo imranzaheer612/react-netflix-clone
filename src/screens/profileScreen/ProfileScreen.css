@@ -1,7 +1,8 @@
 .profileScreen {
-    height: 100%;
+    height: 100vh;
     color: white;
     background-color: black;
+    /* overflow: visible; */
 }
 
 .profileScreen__body {
@@ -10,7 +11,7 @@
     width: 50%;
     margin-left: auto;
     margin-right: auto;
-    padding: 3%;
+    padding: 8%;
     max-width: 800px;
 }
 
@@ -54,29 +55,8 @@
     font-weight: 600;
 }
 
-.profileScreen_plans {
-    margin-top: 20px;
-}
-
-.profileScreen_plans > p{
-    border-bottom: 1px solid #282c2d;
-    padding-bottom: 10px;
-}
-
-.profileScreen_plan {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    opacity: 0.8;
-}
-
-.profileScreen_plan:hover {
-    opacity: 1;
-}
-
-
 .profileScreen__plan > button {
-    padding: 10px 10px;
+    padding: 10px 20px;
     font-size: 1rem;
     color: white;
     background-color: #e50914;
@@ -84,8 +64,4 @@
     font-weight: 600;
     border: none;
     max-height: 50px;
-}
-
-.profileScreen_disabled {
-    background-color: grey !important;
-}
+} 
